@@ -3,6 +3,8 @@ html
 
 html files (homepages, etc)
 
-Left is startpage.html, right is startpage-japanese.html
+look in ubuntufag.github.io for ubuntufag.cf's source files
 
-<img src="http://a.pomf.se/cnogya.png">
+Left is startpage-japanese.html, right is startpage.html
+
+<img src="http://a.pomf.se/vrjrtb.png">
