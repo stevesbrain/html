@@ -1,0 +1,55 @@
+<style>
+
+/* body{
+background-color:#2D2D2D} */
+.div1{
+padding:30px;
+margin:auto;
+font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";
+color:#9FACA3;
+font-size:14px;
+}
+hr{
+background-color:#BBBBBB;
+height: 1px; 
+border: 0;
+}
+a:hover{
+font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";
+color:#9FACA3;
+text-decoration:none;
+}
+a:link{
+font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";
+color:#9FACA3;
+text-decoration:none;
+}
+a:active{
+font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";
+color:#9FACA3;
+text-decoration:none;
+}
+a:visited{
+font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";
+color:#9FACA3;
+text-decoration:none;
+}
+.centergray{
+font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";
+padding-left:20px;
+color:#AC6E77;
+}
+.float{
+float:left;
+}
+.clear{
+clear:both;
+}
+ul{
+padding-left:40px;
+}
+.medleft{
+align:left;
+padding-left: 30px;
+}
+</style>
