@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Roboto:400,400i,500,700" rel="stylesheet">
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index.css"> 
+		<script>
+			// Remove after development is done. This script
+			// is only used for testing.
+			
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid" id="page-wrapper" style="padding-left: 0; padding-right: 0;">
+				
+			<nav class="top-nav navbar navbar-expand-md navbar-toggleable-md fixed-top" id="top-nav">
+				<a class="navbar-brand" href="#">
+					<img class="img-responsive" src="res/ubuntu.png"/>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-nav-collapse" aria-expanded="false">
+					<span class="fa fa-bars"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="top-nav-collapse">
+					<ul class="nav navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link top-nav-link" href="#">
+								<span class="sr-only">(Current)</span>
+								Home
+								<p class="top-nav-lead d-inline"> - Welcome home.</p>
+								<span class="fa fa-home top-nav-link-icon pull-right"></span>
+							</a>
+						</li>
+						<li class="divider" role="separator"></li>
+						<li class="nav-item">
+							<a class="nav-link top-nav-link" href="http://www.4chan.org">
+								4chan
+								<p class="top-nav-lead d-inline"> - Check out 4chan.</p>
+								<span class="fa fa-globe top-nav-link-icon pull-right"></span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link top-nav-link" href="https://duckduckgo.com/?t=h_">
+								info
+								<p class="top-nav-lead d-inline"> - be informed.</p>
+								<span class="fa fa-info-circle top-nav-link-icon pull-right"></span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link top-nav-link" href="https://duckduckgo.com/?q=fun">
+								fun
+								<p class="top-nav-lead d-inline"> - have some fun.</p>
+								<span class="fa fa-smile-o top-nav-link-icon pull-right"></span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link top-nav-link" href="https://duckduckgo.com/?q=music">
+								music
+								<p class="top-nav-lead d-inline"> - listen to some new tunes.</p>
+								<span class="fa fa-music top-nav-link-icon pull-right"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<header id="page-header">
+				<img class="img-responsive pull-left header-logo" src="res/ubuntu.png"/>
+				<h1 id="page-title">Welcome home, spirit</h1>
+			</header>
+			
+			<main id="page-main">
+				<section style="padding-left: 15px; padding-right: 15px;">
+					<br>
+					<hr style="background-color: #4A4A4A; margin-top: 0;">
+					<form class="" id="search-bar">
+						<div class="input-group">
+							<input type="text" class="form-control" id="search-bar-input" placeholder="Search">
+							<button class="input-group-addon" id="search-btn" type="button">
+								<img src="res/duckduckgo-logo.svg" alt="duckduckgo" class="img-responsive" id="ddg-logo">
+							</button>
+						</div>
+					</form>
+					<hr style="background-color: #4A4A4A; margin-bottom: 0;">
+				</section>
+				
+				
+				
+				
+				<nav class="main-nav" id="main-nav">
+					
+					<div class="main-nav-row" onmouseover="onMainNavRowHover(this)">
+						<h2 class="main-nav-header">
+							4chan
+							<span class="fa fa-globe header-icon pull-right"></span>
+							<a href="http://www.4chan.org">
+								<span class="fa fa-external-link"></span>
+							</a>
+							<span>
+								<p class="main-nav-lead">Explore your favorite topics.</p>
+							</span>
+						</h2>
+						<div class="main-nav-links-container">
+							<span class="fa fa-link"></span>
+							<a class="main-nav-link" href="http://4chan.org/g/">/g/</a>
+							<a class="main-nav-link" href="http://4chan.org/mu/">/mu/</a>
+							<a class="main-nav-link" href="http://4chan.org/lit/">/lit/</a>
+							<a class="main-nav-link" href="http://4chan.org/k/">/k/</a>
+							<a class="main-nav-link" href="http://4chan.org/wg/">/wg/</a>
+							<a class="main-nav-link" href="http://4chan.org/c/">/c/</a>
+							<a class="main-nav-link" href="http://4chan.org/w/">/w/</a>
+							<a class="main-nav-link" href="http://4chan.org/a/">/a/</a>
+						</div>
+						<!--<br>-->
+						<hr class="medleft" align="left">	
+						
+					</div>
+				
+					<div class="main-nav-row" onmouseover="onMainNavRowHover(this)">
+						<h2 class="main-nav-header">
+							info
+							<span class="fa fa-info-circle header-icon pull-right"></span>
+							<a href="https://duckduckgo.com/?t=h_">
+								<span class="fa fa-search"></span>
+							</a>
+							<span>
+								<p class="main-nav-lead">Stay up to date with the latest information.</p>
+							</span>
+						</h2>
+						<div class="main-nav-links-container">
+							<span class="fa fa-link"></span>
+							<a class="main-nav-link" href="https://duckduckgo.com">duckduckgo</a>
+							<a class="main-nav-link" href="https://wiki.archlinux.org/‎">arch wiki</a>
+							<a class="main-nav-link" href="http://alarmpi/">raspberry pi</a>
+						</div>
+						<!--<br>-->
+						<hr class="medleft" align="left">
+							
+					</div>
+			
+					<div class="main-nav-row" onmouseover="onMainNavRowHover(this)">
+						<h2 class="main-nav-header">
+							fun
+							<span class="fa fa-smile-o header-icon pull-right"></span>
+							<a href="https://duckduckgo.com/?q=fun&t=h_&ia=web">
+								<span class="fa fa-search"></span>
+							</a>
+							<span>
+								<p class="main-nav-lead">Have free time? Have some fun.</p>
+							</span>
+						</h2>
+						<div class="main-nav-links-container">
+							<span class="fa fa-link"></span>
+							<a class="main-nav-link" href="http://youtube.com">youtube</a>
+							<a class="main-nav-link" href="http://bakabt.me">bakabt</a>
+							<a class="main-nav-link" href="http://nyaa.se">nyaa</a>
+							<a class="main-nav-link" href="http://reddit.com">reddit</a>
+						</div>
+						<!--<br>-->
+						<hr class="medleft" align="left">
+							
+					</div>
+			
+					<div class="main-nav-row" onmouseover="onMainNavRowHover(this)">
+						<h2 class="main-nav-header">
+							music
+							<span class="fa fa-music header-icon pull-right"></span>
+							<a href="https://duckduckgo.com/?q=music&t=h_&iax=videos&ia=videos">
+								<span class="fa fa-search"></span>
+							</a>
+							<span>
+								<p class="main-nav-lead">In the mood for music?</p>
+							</span>
+						</h2>
+						
+						<div class="main-nav-links-container">
+							<span class="fa fa-link"></span>
+							<a class="main-nav-link" href="http://pitchfork.com">pitchfork</a>
+							<a class="main-nav-link" href="http://last.fm/">last.fm</a>
+							<a class="main-nav-link" href="http://walkingwallofwords.com">neutral milk hotel</a>
+						</div>
+						<!--<br>-->
+						<hr class="medleft" align="left">
+	
+					</div>
+			
+				</nav>
+					
+			</main>
+
+			<footer id="page-footer">
+				<div class="footer-above bg-faded">
+					<hr style="background-color: #4A4A4A; margin-top: 0;">
+					<h3 class="text-center" id="footer-cta">Kick your shoes off, stay a while!</h3>
+					<hr style="background-color: #4A4A4A;">
+					<br>
+				</div>
+				<div class="footer-below fixed-bottom">
+					<a class="social-link" href="#">
+						<span class="fa fa-facebook social-icon"></span>			
+					</a>
+					<a class="social-link" href="#">
+						<span class="fa fa-twitter social-icon"></span>
+					</a>
+					<a class="social-link" href="#">
+						<span class="fa fa-google-plus social-icon"></span>
+					</a>
+					<a class="social-link" href="#">
+						<span class="fa fa-instagram social-icon"></span>
+					</a>
+					<a class="social-link" href="#">
+						<span class="fa fa-tumblr social-icon"></span>
+					</a>
+					<a class="social-link" href="#">
+						<span class="fa fa-pinterest social-icon"></span>
+					</a>
+				</div>
+			</footer>
+			
+		</div>
+		<script>
+			
+			var main_nav_rows = document.getElementsByClassName('main-nav-row');
+			
+			for(var i = 0; i < main_nav_rows.length; i++) {
+				main_nav_rows[i].onmouseover = function() {
+					// The <hr> tag that is the child of the main nav row.
+					var elem_hr = this.getElementsByTagName('hr')[0];
+					// Makes the width 100% on hover.
+					elem_hr.style.width = '100%';
+					
+					elem_hr.style.transition = 'all .26s ease';
+				};
+				
+				main_nav_rows[i].onmouseleave = function() {
+					// The <hr> tag that is the child of the main nav row.
+					var elem_hr = this.getElementsByTagName('hr')[0];
+					// Put the width back to 30% when the mouse leaves.
+					elem_hr.style.width = '30%';
+					elem_hr.style.transition = 'all .26s ease';
+				
+				};
+			}
+		</script>
+		<script>
+			var top_nav_leads = document.getElementsByClassName("top-nav-lead");
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+		</body>
+</html>
