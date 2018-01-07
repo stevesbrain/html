@@ -9,6 +9,9 @@
 		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="index.css"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 		<script>
 			// Remove after development is done. This script
 			// is only used for testing.
@@ -16,7 +19,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="container-fluid" id="page-wrapper" style="padding-left: 0; padding-right: 0;">
+		<div class="container" id="page-wrapper" style="padding-left: 0; padding-right: 0;">
 				
 			<nav class="top-nav navbar navbar-expand-md navbar-toggleable-md fixed-top" id="top-nav">
 				<a class="navbar-brand" href="#">
@@ -31,7 +34,7 @@
 							<a class="nav-link top-nav-link" href="#">
 								<span class="sr-only">(Current)</span>
 								Home
-								<p class="top-nav-lead d-inline"> - Welcome home.</p>
+								<p class="top-nav-lead d-inline"> - welcome home.</p>
 								<span class="fa fa-home top-nav-link-icon pull-right"></span>
 							</a>
 						</li>
@@ -39,27 +42,27 @@
 						<li class="nav-item">
 							<a class="nav-link top-nav-link" href="http://www.4chan.org">
 								4chan
-								<p class="top-nav-lead d-inline"> - Check out 4chan.</p>
+								<p class="top-nav-lead d-inline"> - check out 4chan.</p>
 								<span class="fa fa-globe top-nav-link-icon pull-right"></span>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link top-nav-link" href="https://duckduckgo.com/?t=h_">
-								info
+								Info
 								<p class="top-nav-lead d-inline"> - be informed.</p>
 								<span class="fa fa-info-circle top-nav-link-icon pull-right"></span>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link top-nav-link" href="https://duckduckgo.com/?q=fun">
-								fun
+								Fun
 								<p class="top-nav-lead d-inline"> - have some fun.</p>
 								<span class="fa fa-smile-o top-nav-link-icon pull-right"></span>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link top-nav-link" href="https://duckduckgo.com/?q=music">
-								music
+								Music
 								<p class="top-nav-lead d-inline"> - listen to some new tunes.</p>
 								<span class="fa fa-music top-nav-link-icon pull-right"></span>
 							</a>
@@ -216,22 +219,33 @@
 					</a>
 					<a class="social-link" href="#">
 						<span class="fa fa-pinterest social-icon"></span>
-					</a>
+					</a> 
 				</div>
 			</footer>
 			
 		</div>
+		<script>
+			$('.main-nav-link').mouseover(function() {
+				$(this).siblings(':not(span)').addClass('has-focus');
+			});
+
+			$('.main-nav-link').mouseleave(function() {
+				$(this).siblings(':not(span)').removeClass('has-focus');
+			});
+		</script>
 		<script>
 			
 			var main_nav_rows = document.getElementsByClassName('main-nav-row');
 			
 			for(var i = 0; i < main_nav_rows.length; i++) {
 				main_nav_rows[i].onmouseover = function() {
+					// Lengthens and shortens the hr element at the bottom of
+					// each main-nav-row.
+					
 					// The <hr> tag that is the child of the main nav row.
 					var elem_hr = this.getElementsByTagName('hr')[0];
 					// Makes the width 100% on hover.
 					elem_hr.style.width = '100%';
-					
 					elem_hr.style.transition = 'all .26s ease';
 				};
 				
@@ -245,11 +259,6 @@
 				};
 			}
 		</script>
-		<script>
-			var top_nav_leads = document.getElementsByClassName("top-nav-lead");
-		</script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-		</body>
+		
+	</body>
 </html>
