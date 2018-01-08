@@ -1,0 +1,63 @@
+/* responsive.css */
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width: 768px) {
+	#page-wrapper {
+		width: 60%;
+	}
+
+	nav#top-nav ul.navbar-nav {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	nav#top-nav li.nav-item {
+		margin-top: auto;
+		margin-left: 4px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	p.top-nav-lead {
+		position: absolute;
+		display: none;
+		right: 100%;
+		visibility: hidden;
+	}
+
+	span.top-nav-link-icon {
+		position: relative;
+		top: 2px;
+		padding-left: 8px;
+	}
+
+	nav#top-nav li.nav-item:hover span.top-nav-link-icon {
+	color: #7ff7f7;
+	-webkit-transform: scale(1.2, 1.2) rotate(0deg);
+	   -moz-transform: scale(1.2, 1.2) rotate(0deg);
+	    -ms-transform: scale(1.2, 1.2) rotate(0deg);
+	     -o-transform: scale(1.2, 1.2) rotate(0deg);
+	        transform: scale(1.2, 1.2) rotate(0deg);
+}
+
+	header#page-header {
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width: 992px) {
+	#page-wrapper {
+		width: 50%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width: 1200px) {
+	#page-wrapper {
+		width: 40%;
+	}
+}

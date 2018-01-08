@@ -3,7 +3,7 @@ body {
 	/*font-family:"Helvetica, Open Sans, Ubuntu, Arial, sans-serif";*/
 	/*font-size:14px;*/
 	font-family: Arial, Ubuntu sans-serif;
-	background-color: #2D2D2D;
+	background-color: #252525;
 	color: #7ff7f7;
 	padding-top: 60px;
 } 
@@ -27,8 +27,9 @@ a:visited {
 }
 
 #page-wrapper {
-	background-color: #2D2D2D;
+	/*background-color: #2D2D2D;*/
 	color: #9FACA3;
+	width: 100%;
 }
 
 nav#top-nav {
@@ -36,8 +37,8 @@ nav#top-nav {
 }
 
 .navbar-brand img {
-	width: 24px;
-	height: 24px;
+	width: 34px;
+	height: 34px;
 }
 
 button[data-target="#top-nav-collapse"] {
@@ -64,14 +65,6 @@ button[data-target="#top-nav-collapse"]:active {
 button[data-target="#top-nav-collapse"]:focus {
 	outline: none !important;
 	box-shadow: none !important;
-}
-
-button[data-target="#top-nav-collapse"]:hover span.fa-bars {
-	
-}
-
-#top-nav-collapse {
-
 }
 
 nav#top-nav ul.navbar-nav {
@@ -124,7 +117,7 @@ p.top-nav-lead {
 
 nav#top-nav li.nav-item:hover p.top-nav-lead {
 	right: 0;
-	opacity: 1.0;
+	opacity: 1.0; 
 	visibility: visible;
 	transition: right .26s ease,
 		opacity .46s ease-in,
@@ -163,6 +156,7 @@ header#page-header {
 	padding-top: 25px;
 	padding-left: 15px;
 	padding-right: 15px;
+	text-align: center;
 }
 
 img.header-logo {
@@ -406,4 +400,3 @@ hr.medleft {
 	margin-left: 12px;
 	/*text-shadow: 0px 1px 4px #111111;*/
 }
-
