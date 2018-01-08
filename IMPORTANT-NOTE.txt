@@ -1,4 +1,4 @@
-My version of startpage.html is only written so far to work on mobile devices only. 
+This version of startpage.html is written inside of index.html and it's css is in index.css. Also, this is only written so far to work on mobile devices only. 
 I am currently in the process of writing the media queries and extra markup for larger
 screen sizes. 
 
