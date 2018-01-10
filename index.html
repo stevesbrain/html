@@ -18,9 +18,6 @@
 	    <script src="js/ui-animations.js"></script>
 	</head>
 	<body>
-		<script>
-			
-		</script>
 		<div class="container" id="page-wrapper" style="padding-left: 0; padding-right: 0;">
 				
 			<nav class="top-nav navbar navbar-expand-md navbar-toggleable-md fixed-top" id="top-nav">
@@ -81,21 +78,19 @@
 			
 			<main id="page-main">
 
-				
-
 				<section id="search-bar-section">
 					<br>
 					<hr style="background-color: #4A4A4A; margin-top: 0;">
 					<form class="" id="search-bar">
 						<div class="input-group">
 							<input type="text" class="form-control" id="search-bar-input" placeholder="Search">
-							<button class="input-group-addon" id="search-btn" type="button">
+							<button class="input-group-addon" id="search-btn" type="submit">
 								<img src="res/duckduckgo-logo.svg" alt="duckduckgo" class="img-responsive" id="ddg-logo">
 							</button>
 						</div>
 					</form>
 					<hr style="background-color: #4A4A4A; margin-bottom: 0;">
-				</section> 
+				</section> <!-- #search-bar-section -->
 				
 				<nav class="main-nav" id="main-nav">
 					
@@ -103,8 +98,8 @@
 						<h2 class="main-nav-header">
 							4chan
 							<span class="fa fa-globe header-icon pull-right"></span>
-							<a href="http://www.4chan.org">
-								<span class="fa fa-external-link"></span>
+							<a class="header-link" id="4chan-header-link" href="http://www.4chan.org">
+								<span class="header-link-icon fa fa-external-link"></span>
 							</a>
 							<span>
 								<p class="main-nav-lead">Explore your favorite topics.</p>
@@ -121,17 +116,15 @@
 							<a class="main-nav-link" href="http://4chan.org/w/">/w/</a>
 							<a class="main-nav-link" href="http://4chan.org/a/">/a/</a>
 						</div>
-						<!--<br>-->
 						<hr class="medleft" align="left">	
-						
-					</div>
+					</div> <!-- .main-nav-row -->
 				
 					<div class="main-nav-row animated slideInRight" onmouseover="onMainNavRowHover(this)">
 						<h2 class="main-nav-header">
 							info
 							<span class="fa fa-info-circle header-icon pull-right"></span>
-							<a href="https://duckduckgo.com/?t=h_">
-								<span class="fa fa-search"></span>
+							<a class="header-link" id="info-header-link" href="https://duckduckgo.com/?t=h_">
+								<span class="header-link-icon fa fa-search"></span>
 							</a>
 							<span>
 								<p class="main-nav-lead">Stay up to date with the latest information.</p>
@@ -143,17 +136,15 @@
 							<a class="main-nav-link" href="https://wiki.archlinux.org/‎">arch wiki</a>
 							<a class="main-nav-link" href="http://alarmpi/">raspberry pi</a>
 						</div>
-						<!--<br>-->
 						<hr class="medleft" align="left">
-							
-					</div>
+					</div> <!-- .main-nav-row -->
 			
 					<div class="main-nav-row animated slideInLeft" onmouseover="onMainNavRowHover(this)">
 						<h2 class="main-nav-header">
 							fun
 							<span class="fa fa-smile-o header-icon pull-right"></span>
-							<a href="https://duckduckgo.com/?q=fun&t=h_&ia=web">
-								<span class="fa fa-search"></span>
+							<a class="header-link" id="fun-header-link" href="https://duckduckgo.com/?q=fun&t=h_&ia=web">
+								<span class="header-link-icon fa fa-search"></span>
 							</a>
 							<span>
 								<p class="main-nav-lead">Have free time? Have some fun.</p>
@@ -166,45 +157,43 @@
 							<a class="main-nav-link" href="http://nyaa.se">nyaa</a>
 							<a class="main-nav-link" href="http://reddit.com">reddit</a>
 						</div>
-						<!--<br>-->
 						<hr class="medleft" align="left">
-							
-					</div>
+					</div> <!-- .main-nav-row -->
 			
 					<div class="main-nav-row animated slideInRight" onmouseover="onMainNavRowHover(this)">
 						<h2 class="main-nav-header">
 							music
 							<span class="fa fa-music header-icon pull-right"></span>
-							<a href="https://duckduckgo.com/?q=music&t=h_&iax=videos&ia=videos">
-								<span class="fa fa-search"></span>
+							<a class="header-link" id="music-header-link" href="https://duckduckgo.com/?q=music&t=h_&iax=videos&ia=videos">
+								<span class="header-link-icon fa fa-search"></span>
 							</a>
 							<span>
 								<p class="main-nav-lead">In the mood for music?</p>
 							</span>
 						</h2>
-						
 						<div class="main-nav-links-container">
 							<span class="fa fa-link"></span>
 							<a class="main-nav-link" href="http://pitchfork.com">pitchfork</a>
 							<a class="main-nav-link" href="http://last.fm/">last.fm</a>
 							<a class="main-nav-link" href="http://walkingwallofwords.com">neutral milk hotel</a>
 						</div>
-						<!--<br>-->
 						<hr class="medleft" align="left">
-	
-					</div>
-			
-				</nav>
-					
-			</main>
+					</div> <!-- .main-nav-row -->
+				
+				</nav> <!-- #main-nav -->
+
+			</main> <!-- #page-main -->
 
 			<footer id="page-footer">
+				
 				<div class="footer-above">
 					<hr style="background-color: #4A4A4A; margin-top: 0;">
-					<h3 class="text-center" id="footer-cta">Kick your shoes off, stay a while!</h3>
-					<hr style="background-color: #4A4A4A;">
 					<br>
-				</div>
+					<h3 class="text-center" id="footer-cta">Kick your shoes off, stay a while!</h3>
+					<br>
+					<br>
+				</div> <!-- .footer-above -->
+				
 				<div class="footer-below fixed-bottom">
 					<a class="social-link" href="#">
 						<span class="fa fa-facebook social-icon"></span>			
@@ -224,8 +213,9 @@
 					<a class="social-link" href="#">
 						<span class="fa fa-pinterest social-icon"></span>
 					</a> 
-				</div>
-			</footer>
+				</div> <!-- .footer-below -->
+
+			</footer> <!-- #page-footer -->
 			
 		</div> <!-- .container #page-wrapper -->
 		
