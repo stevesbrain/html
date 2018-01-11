@@ -70,7 +70,6 @@ button[data-target="#top-nav-collapse"]:focus {
 nav#top-nav ul.navbar-nav {
 	padding-top: 10px;
 	padding-bottom: 20px;
-	background-color:  #313131;
 	padding-left: 8px;
 	padding-right: 8px;
 }
