@@ -1,0 +1,7 @@
+- When any .main-nav-row is hovered over you can either see a yellowish search icon
+or an external-link icon. The reason that the 4chan .main-nav-row has the external link icon rather than the search icon like all the rest is because I figured since the terms
+'info', 'fun' & 'music' are all search terms they could just be used as keyword in a 
+duckduck go search whereas 4chan is not really a search term in my eyes, but a place to 
+go, so it got the external link icon instead.
+
+- Used duckduck go as the main search engine since it was already a link provided by the author of the original site. I wanted to keep as much of the original design as possible so that even though they look completely different at first glance, side-by-side you will see the similarities and how things match up.

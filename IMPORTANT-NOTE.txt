@@ -1,0 +1,19 @@
+This version of startpage.html is written inside of index.html and it's css is in index.css. This was meant to preserve the original to use as a reference.
+The media queries for larger screens are inside of 'css/responsive.css'
+
+I [ctrl + A'd] the contents of startpage.html and pasted it into index.html and then built off of that 
+rather than writing it completely from scratch.
+
+I tried to keep the simplistic style of the original but interpreted in my own way. 
+I thought the colors that the author\s originally had were kind of cool so I decided
+to keep them and just switch up the background color. I always love dark ui's personally although 
+the way the original site looks is great already. 
+
+Also just to add, I did this just for the fun of it. I've been studying and practicing web development 
+and design for some years now as well as other programming languages so I figured I'd go on github 
+and look for small projects like this one to revise and make my own version of for the practice and 
+experience. Going off of a project that is already started gives me an idea of how it will be to have
+to work with content given to me by clients rather than only designing things on my own.
+So I appreciate it everyone feel free to msg me anytime day or night.
+
+Thnx :P
